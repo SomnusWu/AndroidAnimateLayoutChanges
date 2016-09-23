@@ -88,7 +88,7 @@
 ![](https://github.com/SomnusWu/AndroidAnimateLayoutChanges/blob/master/bg_clipchildren.png)  
 
 
-##4: `android:duplicateParentState="true"  子控件（点击、焦点）是否更随父控件改变而改变 , 有被点击的效果，但是不执行点击事件`
+##4: `android:duplicateParentState="true"  如果设置此属性，将直接从父容器中获取绘图状态（光标，按下等）。 注意仅仅是获取绘图状态，而没有获取事件，也就是你点一下LinearLayout时Button有被点击的效果，但是不执行点击事件“`
 
 ```Java
    <LinearLayout
@@ -99,7 +99,7 @@
         android:gravity="center"
         android:clipChildren="false"
         android:onClick="onAction">
-        <!--子控件（点击、焦点）是否更随父控件改变而改变 , 有被点击的效果，但是不执行点击事件-->
+        <!--子控件（点击、焦点）是否更随父控件改变而改变 , 有被点击的效果，但是不执行点击事件 -->
         <!--android:duplicateParentState="true"-->
         <TextView
             android:id="@+id/btn_click"
