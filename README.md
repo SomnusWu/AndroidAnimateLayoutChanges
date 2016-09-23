@@ -91,7 +91,7 @@
 ##4: `android:duplicateParentState="true"  子控件（点击、焦点）是否更随父控件改变而改变 , 有被点击的效果，但是不执行点击事件`
 
 ```Java
-  <LinearLayout
+   <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="#cfcfcf"
@@ -99,13 +99,13 @@
         android:gravity="center"
         android:clipChildren="false"
         android:onClick="onAction">
-        <!--子控件（点击、焦点）是否更随父控件改变而改变 ,true :  有被点击的效果，但是不执行点击事件-->
+        <!--子控件（点击、焦点）是否更随父控件改变而改变 , 有被点击的效果，但是不执行点击事件-->
         <!--android:duplicateParentState="true"-->
-        <Button
+        <TextView
             android:id="@+id/btn_click"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="onAction"
+            android:padding="10dp"
             android:background="@drawable/qg_selector_submit_oval_red"
             android:duplicateParentState="true"
             android:text="click me"/>
