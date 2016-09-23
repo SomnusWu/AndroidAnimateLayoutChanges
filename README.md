@@ -12,7 +12,7 @@
 
 ##3：`clipChildren` 作用  
 
-*1、只需在根节点设置android:clipChildren为false即可，默认为true
-*2、可以通过android:layout_gravity控制超出的部分如何显示。
-*3、android:clipChildren的意思：是否限制子View在其范围内
+* 1、只需在根节点设置android:clipChildren为false即可，默认为true</br>
+* 2、可以通过android:layout_gravity控制超出的部分如何显示。</br>
+* 3、android:clipChildren的意思：是否限制子View在其范围内</br>
 
