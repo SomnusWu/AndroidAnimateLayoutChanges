@@ -83,7 +83,7 @@
 
 
 ####应用场景 
-
+http://www.cnblogs.com/over140/p/3508335.html
 
 ![](https://github.com/SomnusWu/AndroidAnimateLayoutChanges/blob/master/bg_clipchildren.png)  
 
