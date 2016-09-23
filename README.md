@@ -69,8 +69,49 @@
 * 1、只需在根节点设置android:clipChildren为false即可，默认为true</br>
 * 2、可以通过android:layout_gravity控制超出的部分如何显示。</br>
 * 3、android:clipChildren的意思：是否限制子View在其范围内</br>
-* 
+####应用场景 
+![](https://github.com/SomnusWu/AndroidAnimateLayoutChanges/blob/master/bg_clipchildren.png)  
 
+
+##4: `android:duplicateParentState="true"  子控件（点击、焦点）是否更随父控件改变而改变 , 有被点击的效果，但是不执行点击事件`
+
+```Java
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#cfcfcf"
+        android:clickable="true"
+        android:gravity="center"
+        android:clipChildren="false"
+        android:onClick="onAction">
+        <!--子控件（点击、焦点）是否更随父控件改变而改变 ,true :  有被点击的效果，但是不执行点击事件-->
+        <!--android:duplicateParentState="true"-->
+        <Button
+            android:id="@+id/btn_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onAction"
+            android:background="@drawable/qg_selector_submit_oval_red"
+            android:duplicateParentState="true"
+            android:text="click me"/>
+    </LinearLayout>
+```
+![](https://github.com/SomnusWu/AndroidAnimateLayoutChanges/blob/master/button_status.gif)
+
+
+
+##5:`moveTaskToBack`
+
+```Java
+
+ @Override
+    public void onBackPressed() {
+       /*写在主页 ， 按返回键返回桌面，不结束Activity*/
+        moveTaskToBack(true);
+    }
+
+```
+ 
 
 
 
