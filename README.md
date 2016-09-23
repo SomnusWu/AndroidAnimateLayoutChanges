@@ -14,7 +14,6 @@
     </LinearLayout>
   ```
   
-
   ```Java 
      Button button = new Button(MainActivity.this);
             button.setText("" + new Random().nextInt(100));
@@ -25,7 +24,8 @@
                     mLinearLayout.removeView(view);
                 }
             });
-            ```
+     ```
+     
    ![](https://github.com/SomnusWu/AndroidAnimateLayoutChanges/blob/master/layout_default.gif)  
   
   
