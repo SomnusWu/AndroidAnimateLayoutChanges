@@ -1,5 +1,17 @@
 # AndroidAnimateLayoutChanges
 
+
+## *.  `android:animateLayoutChanges="true"` 
+## *.  layout  自定义动画 
+## *.  `clipChildren` 作用  
+## *. `android:duplicateParentState="true" `
+## *. `moveTaskToBack `
+
+
+
+
+
+
 ##1: layout     默认 layout 动画 就可在 布局中设置 `android:animateLayoutChanges="true"` 
   
   ```Java
