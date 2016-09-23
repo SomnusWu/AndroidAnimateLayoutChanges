@@ -1,7 +1,6 @@
 # AndroidAnimateLayoutChanges
 
-##1： `android:animateLayoutChanges="true"` layout     默认 layout 动画 就可
-  在 布局中设置 `android:animateLayoutChanges="true"` 
+##1： `android:animateLayoutChanges="true"` layout     默认 layout 动画 就可在 布局中设置 `android:animateLayoutChanges="true"` 
   
   ```Java
   <LinearLayout
@@ -14,6 +13,8 @@
     </LinearLayout>
   ```
   
+  
+  
   ```Java 
      Button button = new Button(MainActivity.this);
             button.setText("" + new Random().nextInt(100));
@@ -24,7 +25,9 @@
                     mLinearLayout.removeView(view);
                 }
             });
-     ```
+  ```
+  
+  
      
    ![](https://github.com/SomnusWu/AndroidAnimateLayoutChanges/blob/master/layout_default.gif)  
   
