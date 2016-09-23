@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="360dp"/>
+
+            <solid android:color="@color/qg_submit_red_press"/>
+        </shape>
+    </item>
+
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="360dp"/>
+
+            <solid android:color="@color/alex_title_color"/>
+        </shape>
+    </item>
+
+</selector>

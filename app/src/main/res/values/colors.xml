@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+
+    <color name="qg_submit_red_press">#BBF64922</color>
+    <color name="alex_title_color">#FF5722</color>
 </resources>
