@@ -1,8 +1,8 @@
 # AndroidAnimateLayoutChanges
 
 
-## *.  `android:animateLayoutChanges="true"` 
-## *.  layout  自定义动画 
+ *.  `android:animateLayoutChanges="true"` 
+ *.  layout  自定义动画 
 ## *.  `clipChildren` 作用  
 ## *. `android:duplicateParentState="true" `
 ## *. `moveTaskToBack `
