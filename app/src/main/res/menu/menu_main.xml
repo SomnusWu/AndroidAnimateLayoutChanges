@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.somnus.androidanimatelayoutchanges.MainActivity">
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:title="@string/action_add"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/action_add1"
+        android:orderInCategory="100"
+        android:title="@string/action_add1"
+        app:showAsAction="withText"/>
+
+</menu>
