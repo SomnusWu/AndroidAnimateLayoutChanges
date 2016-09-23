@@ -1,6 +1,6 @@
 # AndroidAnimateLayoutChanges
 
-##1： `android:animateLayoutChanges="true"` layout     默认 layout 动画 就可在 布局中设置 `android:animateLayoutChanges="true"` 
+##1: layout     默认 layout 动画 就可在 布局中设置 `android:animateLayoutChanges="true"` 
   
   ```Java
   <LinearLayout
