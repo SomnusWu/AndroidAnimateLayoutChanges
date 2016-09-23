@@ -1,3 +1,3 @@
 # AndroidAnimateLayoutChanges
 
-##1： layout   
+##1： layout    
